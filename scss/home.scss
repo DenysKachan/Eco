@@ -1,3 +1,45 @@
+$color-1: #78A178;
+$color-2: #F2EC5C;
+$color-3: #686666;
+$color-4: white;
+
 .header__link_active {
     color: #F2EC5C !important;
+}
+
+.header_active {
+    background: url(../img/header/02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    width: 100%;
+    padding: 0 110px;
+    margin: 0 auto;
+    border: 1px solid;
+
+    &__container {
+        width: 100%;
+        background: #FFFDFD;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+        padding: 0 50px;
+    }
+
+    &__about {
+        width: 100%;
+        padding: 130px 0;
+        display: flex;
+        justify-content: space-between;
+        color: $color-3;
+
+
+        &-headline {
+            font-size: 60px;
+        }
+
+        &-text {
+            font-size: 35px;
+        }
+    }
 }
