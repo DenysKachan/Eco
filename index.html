@@ -6,21 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Екологія</title>
-    <link rel="stylesheet" href="css/start-screen.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="shortcut icon" href="img/title/01.svg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+    <div id="page-preloader" class="preloader">
+        <div class="loader"></div>
+    </div>
+
     <div class="wrapper">
 
-        <img src="img/start-screen/01.png" alt="Ecology-icon" class="picture">
-        <h1 class="headline">Екологія</h1>
-        <h2 class="subtitle">планети Земля</h2>
-        <a href="home.html" class="link">Вперед</a>
-        
+        <header class="header header_active">
+            <div class="header__top">
+                <a href="home.html"><img src="img/header/01.png" alt="Logo" class="logo"></a>
+                <nav class="header__menu">
+                    <a href="#" class="header__link header__link_active">Головна</a>
+                    <a href="#" class="header__link">Дослідження</a>
+                    <a href="#" class="header__link">Людина-Природа</a>
+                </nav>
+                <a href="#" class="header__test">Вирішення</a>
+            </div>
+            <h1 class="header__headline">Екологія</h1>
+            <h2 class="header__subtitle">планети Земля</h2>
+        </header>
+
+        <main class="main">
+            <div class="main__container">
+                <div class="main__about">
+                    <h2 class="main__about-headline">
+                        ПРО<br>
+                        ПРОЕКТ
+                    </h2>
+                    <p class="main__about-text">
+                        Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <b>Nam</b> <br> viverra at eros vel
+                        vehicula.
+                        Nam <br> venenatis commodo erat, non <br> feugiat purus cursus <b>placerat</b>.
+                    </p>
+                </div>
+                <div class="main__save">
+                    <h2 class="main__save-headline">
+                        <span>Ми можемо</span>
+                        <span>Зберегти нашу</span>
+                        <span>Планету</span>
+                    </h2>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <h2 class="footer__headline">ЕКОЛОГІЯ планети Земля</h2>
+                <nav class="footer__menu-social">
+                    <a href="#"><img src="img/footer/01.png" alt="Telegram"></a>
+                    <a href="#"><img src="img/footer/02.png" alt="Twitter"></a>
+                    <a href="#"><img src="img/footer/03.png" alt="Facebook"></a>
+                    <a href="#"><img src="img/footer/04.png" alt="Instagram"></a>
+                </nav>
+            </div>
+        </footer>
+
     </div>
+
+    <script src="js/preloader.js"></script>
 </body>
 
 </html>
