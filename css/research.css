@@ -29,14 +29,14 @@
 
 .main__problems h2 {
   color: #4b4b4b;
-  font-size: 60px;
+  font-size: calc(30px + 30 * (100vw / 1440));
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 .main__problems p {
   color: #686666;
-  font-size: 25px;
+  font-size: calc(14px + 12 * (100vw / 1440));
   font-weight: 500;
   width: 80%;
   margin: 0 auto;
@@ -68,14 +68,14 @@
 }
 
 .main__left-block h3, .main__right-block h3 {
-  font-size: 35px;
+  font-size: calc(18px + 16 * (100vw / 1440));
   color: #4b4b4b;
   margin-bottom: 20px;
   font-weight: bold;
 }
 
 .main__left-block p, .main__right-block p {
-  font-size: 25px;
+  font-size: calc(14px + 12 * (100vw / 1440));
   color: #686666;
   font-weight: 400;
 }
@@ -195,13 +195,13 @@
 }
 
 .main__flip-cards .flip > .back h4 {
-  font-size: 30px;
+  font-size: calc(18px + 16 * (100vw / 1440));
   margin-bottom: 10px;
   font-weight: 700;
 }
 
 .main__flip-cards .flip > .back p {
-  font-size: 20px;
+  font-size: calc(14px + 12 * (100vw / 1440));
   color: white;
 }
 

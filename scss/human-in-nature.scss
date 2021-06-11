@@ -4,6 +4,13 @@ $color-3: #686666;
 $color-4: white;
 $color-5: #4b4b4b;
 
+$fnt-120: calc(40px + 70 * (100vw / 1440));
+$fnt-90: calc(34px + 56 * (100vw / 1440));
+$fnt-60: calc(30px + 30 * (100vw / 1440));
+$fnt-48: calc(26px + 22 * (100vw / 1440));
+$fnt-34: calc(18px + 16 * (100vw / 1440));
+$fnt-26: calc(14px + 12 * (100vw / 1440));
+
 .header__link_active {
     color: $color-2 !important;
 }
@@ -33,7 +40,7 @@ $color-5: #4b4b4b;
 
         h2 {
             color: $color-5;
-            font-size: 60px;
+            font-size: $fnt-60;
             font-weight: bold;
             margin-bottom: 20px;
             text-transform: uppercase;
@@ -41,7 +48,7 @@ $color-5: #4b4b4b;
 
         p {
             color: $color-3;
-            font-size: 25px;
+            font-size: $fnt-26;
             font-weight: 500;
             width: 80%;
             margin: 0 auto;
@@ -57,7 +64,7 @@ $color-5: #4b4b4b;
             text-align: center;
             width: 40%;
             margin: 100px auto;
-            font-size: 24px;
+            font-size: $fnt-26;
             color: $color-5;
         }
     }
@@ -73,7 +80,7 @@ $color-5: #4b4b4b;
 
         h4 {
             color: $color-5;
-            font-size: 36px;
+            font-size: $fnt-34;
             font-weight: bold;
             margin: 0 0 40px 40px;
         }
@@ -98,7 +105,7 @@ $color-5: #4b4b4b;
 
         h4 {
             color: $color-5;
-            font-size: 36px;
+            font-size: $fnt-34;
             font-weight: bold;
             margin: 40px 40px 0 0;
             text-align: right;

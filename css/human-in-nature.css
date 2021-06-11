@@ -30,7 +30,7 @@
 
 .main__top h2 {
   color: #4b4b4b;
-  font-size: 60px;
+  font-size: calc(30px + 30 * (100vw / 1440));
   font-weight: bold;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -38,7 +38,7 @@
 
 .main__top p {
   color: #686666;
-  font-size: 25px;
+  font-size: calc(14px + 12 * (100vw / 1440));
   font-weight: 500;
   width: 80%;
   margin: 0 auto;
@@ -54,7 +54,7 @@
   text-align: center;
   width: 40%;
   margin: 100px auto;
-  font-size: 24px;
+  font-size: calc(14px + 12 * (100vw / 1440));
   color: #4b4b4b;
 }
 
@@ -74,7 +74,7 @@
 
 .main__pattern-left h4 {
   color: #4b4b4b;
-  font-size: 36px;
+  font-size: calc(18px + 16 * (100vw / 1440));
   font-weight: bold;
   margin: 0 0 40px 40px;
 }
@@ -103,7 +103,7 @@
 
 .main__pattern-right h4 {
   color: #4b4b4b;
-  font-size: 36px;
+  font-size: calc(18px + 16 * (100vw / 1440));
   font-weight: bold;
   margin: 40px 40px 0 0;
   text-align: right;
