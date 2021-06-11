@@ -123,18 +123,18 @@ $color-5: #4b4b4b;
         }
     }
 
-    &__persons-section{
+    &__persons-section {
         width: 100%;
         padding-bottom: 80px;
 
-        h2{
+        h2 {
             font-size: 60px;
             color: $color-5;
             font-weight: bold;
             text-align: center;
         }
 
-        &>p{
+        &>p {
             text-align: center;
             font-size: 45px;
             color: $color-3;
@@ -143,42 +143,42 @@ $color-5: #4b4b4b;
         }
     }
 
-    &__persons{
+    &__persons {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: baseline;
     }
 
-    &__person{
+    &__person {
         width: 33%;
 
-        img{
+        img {
             width: 100%;
         }
 
-        h3{
+        h3 {
             font-size: 35px;
             font-weight: bold;
             color: $color-5;
             margin: 10px 0;
         }
 
-        p{
+        p {
             font-size: 25px;
             color: $color-3;
         }
 
-        b{
+        b {
             color: $color-1;
         }
     }
 
-    &__why{
+    &__why {
         width: 100%;
-        margin: 30px 0 60px 0;
+        margin: 100px 0 60px 0;
 
-        h2{
+        h2 {
             font-size: 60px;
             color: $color-5;
             font-weight: bold;
@@ -186,35 +186,35 @@ $color-5: #4b4b4b;
             margin-bottom: 40px;
         }
 
-        div{
+        div {
             width: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
 
-            p{
-                width: 400px;
-                font-size: 35px;
+            p {
+                width: 35%;
+                font-size: calc(18px + 17 * (100vw / 1440));
                 text-align: center;
                 color: $color-3;
             }
 
-            iframe{
-                width: 700px;
-                height: 405px;
+            iframe {
+                width: 50%;
+                height: 350px;
             }
         }
     }
 
-    .color-1{
+    .color-1 {
         color: $color-1;
     }
 
-    .color-2{
+    .color-2 {
         color: $color-2;
     }
 
-    .color-5{
+    .color-5 {
         color: $color-5;
     }
 }

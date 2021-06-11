@@ -153,14 +153,19 @@ $color-5: #4b4b4b;
                 padding: 1em 2em;
                 border-radius: 10px;
                 background: $color-1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
 
                 img {
                     width: 100px;
                 }
 
                 h4 {
-                    font-size: 30px;
-                    margin: 40px 0 10px 0;
+                    font-size: 30px;    
+                    margin-bottom: 10px;
+                    font-weight: 700;
                 }
 
                 p {

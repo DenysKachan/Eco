@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/preloader.css">
     <link rel="stylesheet" href="css/research.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="shortcut icon" href="img/title/01.svg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
@@ -28,10 +29,10 @@
                 <a href="index.html"><img src="img/header/01.png" alt="Logo" class="logo"></a>
                 <nav class="header__menu">
                     <a href="index.html" class="header__link">Головна</a>
-                    <a href="research.html" class="header__link header__link_active">Дослідження</a>
-                    <a href="#" class="header__link">Людина-Природа</a>
+                    <a href="#" class="header__link header__link_active">Дослідження</a>
+                    <a href="human-in-nature.html" class="header__link">Людина-Природа</a>
                 </nav>
-                <a href="#" class="header__test">Вирішення</a>
+                <a href="solution.html" class="header__test">Вирішення</a>
             </div>
             <h1 class="header__headline">Екологія</h1>
             <h2 class="header__subtitle">планети Земля</h2>
@@ -48,7 +49,7 @@
                 </div>
                 <div class="main__left-block">
                     <img src="img/main/05.png" alt="photo">
-                    <div>
+                    <div class="animate__animated wow animate__bounceInRight">
                         <h3>Забруднення атмосфери</h3>
                         <p>
                             <b>Забруднення атмосферного повітря</b> — один з основних типів антропогенного забруднення.
@@ -60,7 +61,7 @@
                     </div>
                 </div>
                 <div class="main__right-block">
-                    <div>
+                    <div class="animate__animated wow animate__bounceInLeft">
                         <h3>Забруднення та виснаження <br>водних ресурсів </h3>
                         <p>
                             <b>Засмічення вод</b> — привнесення у водні об'єкти сторонніх нерозчинних предметів і
@@ -75,7 +76,7 @@
                 </div>
                 <div class="main__left-block">
                     <img src="img/main/07.png" alt="photo">
-                    <div>
+                    <div class="animate__animated wow animate__bounceInRight">
                         <h3>Деградація ґрунту</h3>
                         <p>
                             <b>«Деградація ґрунту»</b> означає зниження чи втрату біологічної і економічної
@@ -94,7 +95,7 @@
                     </div>
                 </div>
                 <div class="main__right-block">
-                    <div>
+                    <div class="animate__animated wow animate__bounceInLeft">
                         <h3>Сміттєве забруднення</h3>
                         <p>
                             На сьогоднішній день сучасна людина споживає в рази більше, ніж його предки. Щороку обсяги
@@ -186,6 +187,10 @@
 
     </div>
 
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="js/preloader.js"></script>
 </body>
 

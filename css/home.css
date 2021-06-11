@@ -191,7 +191,7 @@
 
 .main__why {
   width: 100%;
-  margin: 30px 0 60px 0;
+  margin: 100px 0 60px 0;
 }
 
 .main__why h2 {
@@ -216,15 +216,15 @@
 }
 
 .main__why div p {
-  width: 400px;
-  font-size: 35px;
+  width: 35%;
+  font-size: calc(18px + 17 * (100vw / 1440));
   text-align: center;
   color: #686666;
 }
 
 .main__why div iframe {
-  width: 700px;
-  height: 405px;
+  width: 50%;
+  height: 350px;
 }
 
 .main .color-1 {
