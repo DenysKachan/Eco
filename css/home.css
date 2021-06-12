@@ -18,7 +18,7 @@
   width: 100%;
   background: #FFFDFD;
   -webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
   padding: 0 50px;
 }
 
@@ -29,8 +29,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   color: #686666;
 }
 
@@ -91,11 +91,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .main__date-section p {
@@ -115,8 +115,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .main__btn-correction a {
@@ -149,7 +149,7 @@
   text-align: center;
 }
 
-.main__persons-section > p {
+.main__persons-section>p {
   text-align: center;
   font-size: calc(26px + 22 * (100vw / 1440));
   color: #686666;
@@ -163,11 +163,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
 }
 
 .main__person {
@@ -213,11 +213,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .main__why div p {
